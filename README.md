@@ -10,20 +10,20 @@ Vous devez développer un site Internet qui permette aux usagers de trouver des 
 
 1. [Instructions](#instructions)
 2. [Guide des étapes](#guide-des-étapes)<br>
-2.1. [Étape 1 : Créez le repository](#étape-1--créez-le-repository)
-2.2. [Étape 2 : Créez la structure du projet](#étape-2--créez-la-structure-du-projet)
-2.3. [Étape 3 : Créez la branche develop](#étape-3--créez-la-branche-develop)
-2.4. [Étape 4 : Créez les issues](#étape-4--créez-les-issues)
-2.5. [Étape 5 : Créez la structure HTML du fichier ``index.html``](#étape-5--créez-la-structure-html-du-fichier-indexhtml)
-2.6. [Étape 6 : Remontez vos modifications à votre repository distant](#étape-6--remontez-vos-modifications-à-votre-repository-distant)
-2.7. [Étape 7 : Découpez votre maquette](#étape-7--découpez-votre-maquette)
-2.8. [Étape 8 : Intégrez le header du projet](#étape-8--intégrez-le-header-du-projet)
-2.9. [Étape 9 : Ajoutez le formulaire de recherche](#étape-9--ajoutez-le-formulaire-de-recherche)
-2.10. [Étape 10 : Ajoutez la zone des filtres](#étape-10--ajoutez-la-zone-des-filtres)
-2.11. [Étape 11 : Réalisez la section `Hébergement à Marseille` et `Les plus populaires`](#étape-11--réalisez-la-section-hébergement-à-marseille-et-les-plus-populaires)
-2.12. [Étape 12 : Intégrez le conteneur `Activités à Marseille`](#étape-12--intégrez-le-conteneur-activités-à-marseille)
-2.13. [Étape 13 : Implémentez le footer](#étape-13--implémentez-le-footer)
-2.14. [Étape 14 : Mettez en place le responsive design](#étape-14--mettez-en-place-le-responsive-design)
+2.1. [Étape 1 : Créez le repository](#étape-1--créez-le-repository)<br>
+2.2. [Étape 2 : Créez la structure du projet](#étape-2--créez-la-structure-du-projet)<br>
+2.3. [Étape 3 : Créez la branche develop](#étape-3--créez-la-branche-develop)<br>
+2.4. [Étape 4 : Créez les issues](#étape-4--créez-les-issues)<br>
+2.5. [Étape 5 : Créez la structure HTML du fichier ``index.html``](#étape-5--créez-la-structure-html-du-fichier-indexhtml)<br>
+2.6. [Étape 6 : Remontez vos modifications à votre repository distant](#étape-6--remontez-vos-modifications-à-votre-repository-distant)<br>
+2.7. [Étape 7 : Découpez votre maquette](#étape-7--découpez-votre-maquette)<br>
+2.8. [Étape 8 : Intégrez le header du projet](#étape-8--intégrez-le-header-du-projet)<br>
+2.9. [Étape 9 : Ajoutez le formulaire de recherche](#étape-9--ajoutez-le-formulaire-de-recherche)<br>
+2.10. [Étape 10 : Ajoutez la zone des filtres](#étape-10--ajoutez-la-zone-des-filtres)<br>
+2.11. [Étape 11 : Réalisez la section `Hébergement à Marseille` et `Les plus populaires`](#étape-11--réalisez-la-section-hébergement-à-marseille-et-les-plus-populaires)<br>
+2.12. [Étape 12 : Intégrez le conteneur `Activités à Marseille`](#étape-12--intégrez-le-conteneur-activités-à-marseille)<br>
+2.13. [Étape 13 : Implémentez le footer](#étape-13--implémentez-le-footer)<br>
+2.14. [Étape 14 : Mettez en place le responsive design](#étape-14--mettez-en-place-le-responsive-design)<br>
 2.15. [Étape 15 : Vérifiez la qualité de votre code](#étape-15--vérifiez-la-qualité-de-votre-code)
 
 ## Instructions

@@ -9,7 +9,7 @@ Vous devez développer un site Internet qui permette aux usagers de trouver des 
 ## Table des matières
 
 1. [Instructions](#instructions)
-2. [Guide des étapes](#guide-des-étapes)
+2. [Guide des étapes](#guide-des-étapes)<br>
 2.1. [Étape 1 : Créez le repository](#étape-1--créez-le-repository)
 2.2. [Étape 2 : Créez la structure du projet](#étape-2--créez-la-structure-du-projet)
 2.3. [Étape 3 : Créez la branche develop](#étape-3--créez-la-branche-develop)
@@ -37,8 +37,8 @@ site Booki. L’ensemble de ces éléments a été validé par l’équipe Produ
 | **Fonction**              | **Description**           |
 |-----------------------|-----------------------|
 | Fonction recherche    | ● Les usagers pourront rechercher des hébergements dans la ville de leur choix<br>● Le champ de recherche est un champ de saisie, le texte doit donc pouvoir être édité par l’utilisateur.<br>● Il faut englober ce champ dans un formulaire. La partie Recherche ne doit pas être fonctionnelle - il s’agit d’une première version pour valider l’interface. |
-| Liens ``Hébergements``<br>et ``Activités`` | ● Les textes ``Hébergements`` et ``Activités``, situés dans l’en-tête, sont des liens. Ils doivent mener respectivement vers la section ``Hébergements à Marseille`` et ``Activités à Marseille``. |
-| Cartes hébergements<br>et activités | ● Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité (pas uniquement le titre).<br>● Pour l’instant, les liens sont vides. On peut utiliser un attribut `href="#"` pour simuler la présence d’un lien. |
+| Liens Hébergements et Activités | ● Les textes ``Hébergements`` et ``Activités``, situés dans l’en-tête, sont des liens. Ils doivent mener respectivement vers la section ``Hébergements à Marseille`` et ``Activités à Marseille``. |
+| Cartes hébergements et activités | ● Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité (pas uniquement le titre).<br>● Pour l’instant, les liens sont vides. On peut utiliser un attribut `href="#"` pour simuler la présence d’un lien. |
 | Filtres de recherche  | ● Les hébergements peuvent être filtrés par thématique, comme le budget ou l’ambiance.<br>● Les filtres doivent changer de couleur au survol de la souris.<br>● Les filtres ne doivent pas être fonctionnels - il s’agit juste d’une première version pour valider l’interface.. |
 
 **Spécifications techniques**
@@ -80,7 +80,6 @@ Dans ce projet, vous utiliserez **Figma** pour accéder aux maquettes desktop, t
 
 **Ressources :**
 - Le cours « `Gérez du code avec Git et GitHub` » ;
-- La documentation officielle pour utiliser [Font Awesome](https://fontawesome.com/docs/web/setup/get-started).
 
 ### Étape 2 : Créez la structure du projet 
 [![Progress](https://img.shields.io/badge/Progression-10%25-blue.svg)]()
@@ -124,7 +123,7 @@ Vous allez réaliser du versonning à partir de la branche ``develop``. A partir
 - tous les issues de créés.
 
 **Recommandations :**
-1. Créez les issues en lien avec les étapes 5, 8 et les actions 8.1, 8.2, 9.1, 9.2 et9.3 
+1. Créez les issues en lien avec les étapes 5, et 7 à 15 
 - Mettez dans le champ **title** l'intitulé de l'étape
 - Sélectionnez **issue** dans le champ **type**
 - Mettez dans **description** le contenu de l'étape
@@ -144,7 +143,7 @@ Vous allez réaliser du versonning à partir de la branche ``develop``. A partir
 1. Ouvrez le dossier **booki-travel** dans votre IDE favoris (exemple VS Code)
 2. Ouvrez le fichier **index.html** et insérez la structure de base HTML5
 3. Indiquez la langue **fr** dans l'attribut ``lang`` de la balise ``html``
-4. Dans la balise **head**, liez la feuille de style au fichier **index.html** et importez la police `Raleway` depuis Google Fonts ainsi que Font Awesome (avec la création de votre kit). Vous pouvez télécharger la font dans un dosseir fonts dans les assets. Pour cela il faudra utiliser `@font-face` dans la feuille de style
+4. Dans la balise `head`, liez la feuille de style au fichier **index.html** et importez la police `Raleway` depuis Google Fonts ainsi que Font Awesome (avec la création de votre kit). Vous pouvez télécharger la font dans un dosseir fonts dans les assets. Pour cela il faudra utiliser `@font-face` dans la feuille de style
 
 **Ressources :**
 - [Documentation pour la création d'un kit Font Awesome](https://fontawesome.com/docs/web/setup/get-started)
@@ -166,7 +165,7 @@ Dans cette étape, vous allez lier l'issue aux modifications que vous remontez �
 2. Réalisez un ``commit`` avec la commande `git commit -m "Création de la structure HTML du fichier index.html #1"`. Ici **#1** correspond au numéro de l'issue qu'il faut solder.
 3. Réalisez un ``push``
 4. Basculez sur la branche ``main`` puis réalisez un ``merge`` de la branche ``develop``
-5. Rendez-vous sur votre repository et exécutez une ``pull request`` pour GitHub et une ``new merge request`` pour GtiLab
+5. Rendez-vous sur votre repository et exécutez une ``pull request`` pour **GitHub** et une ``new merge request`` pour **GitLab**
 6. Cloturez l'issue depuis votre repository
 
 ### Étape 7 : Découpez votre maquette
@@ -260,18 +259,18 @@ Ne perdez pas trop de temps à réaliser un découpage parfait. Le principal est
 **Ressources :**
 - Appuyez-vous sur le `chapitre : Découvrez le modèle des boîtes` du cours `Créez votre site web avec HTML5 et CSS3`
 
-### Étape 11 : Réalisez la section `Hébergement à Marseille` et `Les plus populaires`
+### Étape 11 : Réalisez les sections `Hébergement à Marseille` et `Les plus populaires`
 [![Progress](https://img.shields.io/badge/Progression-60%25-blue.svg)]()
 
 **Avant de démarrer cette étape, je dois avoir :**
 - intégré les filtres de la page.
 
 **Une fois cette étape terminée, je devrais avoir :**
-- les deux section « *Hébergements à Marseille* » et « *Les plus populaires* ».
+- les deux sections « *Hébergements à Marseille* » et « *Les plus populaires* ».
 
 **Recommandations :**
 1. Les cartes “*hébergements*” sont similaires aux cartes “*les plus populaires*”. Attention cependant, elles sont différentes, notamment dans le sens d’alignement des éléments : à l’horizontale pour “les plus populaires” et à la verticale pour les cartes “*hébergements*”.
-2. Si aucune propriété CSS n’est appliquée sur une image, celle-ci va s’afficher dans sa taille d’origine. Comme pour de très nombreux éléments, donner une largeur en **%** à l’image est une bonne idée. Il sera nécessaire de définir une hauteur en pixels.
+2. Si aucune propriété CSS n’est appliquée sur une image, celle-ci va s’afficher dans sa taille d’origine. Comme pour de très nombreux éléments, donner une largeur en % à l’image est une bonne idée. Il sera nécessaire de définir une hauteur en pixels.
 3. Une fois dimensionnée, l’image devrait être déformée. La propriété CSS `object-fit` permettra de corriger cela.
 4. Remontez vos modifications à votre repository distant. Reprenez ici ce que vous avez réalisé à l'[Étape 6](#étape-6--remontez-vos-modifications-à-votre-repository-distant)
 
@@ -339,7 +338,7 @@ intégrer les 3 autres à partir de la première.
 
 **Avant de démarrer cette étape, je dois avoir :**
 - La version desktop du site, pleinement fonctionnelle, se comportant
-correctement de la résolution 1024 px à la résolution 1440 px.
+correctement de la résolution 1024px à la résolution 1440px.
 
 **Une fois cette étape terminée, je devrais avoir :**
 - Un projet pleinement compatible avec toutes les tailles d’écran possibles.
@@ -347,7 +346,7 @@ correctement de la résolution 1024 px à la résolution 1440 px.
 **Recommandations :**
 1. Respectez bien les deux media queries définies : <=1024px pour l’affichage tablette et <768px pour l’affichage mobile ;
 3. Pensez bien à respecter l’ordre du code dans le CSS : d’abord le code CSS global, puis la media query tablette, puis la version mobile.
-4. Pensez à définir une largeur maximum à 1440 px pour gérer correctement les écrans avec une grande résolution, ainsi qu’une largeur minimum de 320px.
+4. Pensez à définir une largeur maximum à 1440px pour gérer correctement les écrans avec une grande résolution, ainsi qu’une largeur minimum de 320px.
 5. Remontez vos modifications à votre repository distant. Reprenez ici ce que vous avez réalisé à l'[Étape 6](#étape-6--remontez-vos-modifications-à-votre-repository-distant)
 
 **Points de vigilance :**
